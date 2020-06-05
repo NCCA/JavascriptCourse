@@ -1,6 +1,5 @@
 'use strict';
 
-//const assert = require('assert');
 const assert =  require('chai').assert
 const expect  = require('chai').expect;
 const chai = require('chai');
@@ -64,6 +63,15 @@ describe('Mat3', function() {
   });
 });
 
-
+describe('Mat3', function() {
+  describe('identity', function() {
+    it('set to identity', function() {
+      let a = new Mat3();
+      a.set([1,2,3,4,5,6,7,8,9]);
+      a.identity();
+      assert(a.equals(new Mat3()));
+    });
+  });
+});
 
 });

@@ -9,6 +9,11 @@ class Mat3 {
            0.0,0.0,  x];
   };
 
+  identity(){
+    this.m =[1.0,0.0,0.0,
+             0.0,1.0,0.0,
+             0.0,0.0,1.0];
+  }
   equals(v){
     return this.m.every( function(el,index){
       return Util.FCompare(el,v.m[index]);

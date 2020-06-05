@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 const Vec3 = require('./Vec3');
-cinst Mat4 = require('./Mat3');
+const Mat3 = require('./Mat3');
 
 describe('Vec3', function() {
   describe('constructor', function() {
