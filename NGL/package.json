@@ -1,0 +1,10 @@
+{
+  "name": "NGL.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "jmacey",
+  "license": "GPL 3"
+}

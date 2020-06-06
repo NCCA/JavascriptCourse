@@ -1,8 +1,8 @@
 'use strict';
 
 const assert = require('assert');
-const Vec3 = require('./Vec3');
-const Mat3 = require('./Mat3');
+const Vec3 = require('../Vec3');
+const Mat3 = require('../Mat3');
 
 describe('Vec3', function() {
   describe('constructor', function() {
